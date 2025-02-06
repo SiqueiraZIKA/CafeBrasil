@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #f2e5bc;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    transition: all 0.4s;   
+    font-family: "Barlow Condensed", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    top: 0;
+}
+
+header img{
+    margin-left: 50px;
+    margin-top: 15PX;
+    width: 7%;
+    height: 7%;
+}
+
+header ul{
+    display: flex;
+    
+}
+
+header ul li{
+    margin-left: 100px;
+    list-style: none;
+}
+
+header ul li a{
+    color: #2a1708;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: #a67a4d;
+    transition: 0.6s;
+}
+
+header a{
+  text-decoration: none;
+  color: #2a1708;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+#btn{
+    border: 2px solid #2a1708;
+    padding: 10px;
+    border-radius: 15px ;
+    color: #2a1708;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#btn:hover{
+    background-color: #2a1708;
+    color: #f2e5bc;
+    transition: 0.7s;
+}
+
+
+#div{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+#esquerda{
+width: 900px;
+}
+
+
+
+#titulo{
+    color: #2a1708;
+    margin-left: 150px;
+    margin-top: 170px;
+    font-size: 50px;
+}
+
+#descricao{
+    font-size: 20px;
+    margin-top: 60px;
+    max-width: 600px;
+    margin-left: 150px;
+    color: #2a1708;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#foto_cafe{
+    margin-top: 220px;
+    width: 500px;
+    height: 400px;
+}
+
+.social{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#imgsocial{
+    height: 70px;
+    width: 70px;
+}
+
+#div2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #2a1708;
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;    
+}
+
+footer p{
+    color: #f2e5bc;  
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer img{
+    width: 3%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+
+.linha2{
+    background-color: #f2e5bc;
+    height: 2px;
+    width: 1500px;
+    margin-left: 0px;
+}
+
+.info{
+    padding: 10px;
+}
